@@ -45,6 +45,8 @@ p {
 
 div {
     height: 700px;
+    border: solid;
+
 }
 
 /* LINKS */
@@ -139,7 +141,7 @@ div {
 #boxes2 {
     position:absolute;
     content: "";
-    padding-top: 30px;
+    padding-top: 10px;
     display: table;
     font-size: 30px;
     clear: both;
@@ -149,14 +151,15 @@ div {
 }
 
 #block1  {
-    border: 10px;
-    border-style: solid dotted;
-    border:blue;
+    border-width: 2px;
+    border-style: dashed;
+    border-left: #000000;
+    border-color: antiquewhite;
     float: left;
-    height: 600px;
+    height: 350px;
     text-decoration:none;
     font-size: 30px;
-    width: 25%;
+    width: 20%;
     color:antiquewhite;
     padding-top: 10px;
     background-color: #000000;
@@ -164,11 +167,22 @@ div {
 
 #block2 {
     float: left;
-    height: 600px;
+    height: 350px;
     border:0;
     text-decoration:none;
     font-size: 30px;
     width: 75%;
     color:antiquewhite;
     padding-top: 10px;
+}
+
+li {
+    font-size: 20px;
+    text-align: left;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
 }
