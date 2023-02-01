@@ -186,3 +186,8 @@ p {
     text-align: left;
     padding-left: 10px;
 }
+
+#aboutMeParagraph {
+    padding-left: 30px;
+    border: none;
+}
