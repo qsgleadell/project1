@@ -2,6 +2,7 @@ body, html {
     padding: 0;
     margin: 0;
     background: #2a363b;
+    font-family: monospace, serif;
 }
 
 
@@ -32,21 +33,9 @@ body, html {
     color:rgb(119, 40, 53);
 }
 
-/* A DECOR */
-
-a {
-    
-}
-
 /* paragraph */
 p {
     line-height: 2;
-}
-
-div {
-    height: 40px;
-    /* border: solid; */
-
 }
 
 /* LINKS */
@@ -68,136 +57,127 @@ div {
     border:0;
     text-decoration:none;
     font-size: 30px;
-    width: 20%;
+    width: 16.666%;
     color:antiquewhite;
     padding-top: 10px;
     background-color: #000000;
 }
 
-.link:hover {
-    background-color: rgb(119, 40, 53);
+
+a.link:hover, a.link:active {
+    color: rgb(119, 40, 53);
 }
 
-.link:active {
-    background-color: rgb(119, 40, 53);
-}
+/* ------------------------------------------ */
 
-#link2 {
-    float: left;
-    height: 40px;
-    margin:0;
-    border:0;
-    text-decoration:none;
-    width: 25%;
-    color:antiquewhite;
-    padding-top: 10px;
-    background-color: #000000;
-}
-
-#link2:hover {
-    background-color: rgb(119, 40, 53);
-}
-
-#link3 {
-    float: left;
-    height: 40px;
-    margin:0;
-    border:0;
-    text-decoration:none;
-    width: 25%;
-    color:antiquewhite;
-    padding-top: 10px;
-    background-color: #000000;
-}
-
-#link3:hover {
-    background-color: rgb(119, 40, 53);
-}
-
-#link4 {
-    float: left;
-    height: 40px;
-    margin:0;
-    border:0;
-    text-decoration:none;
-    padding-top: 10px;
-    width: 25%;
-    color:antiquewhite;
-    background-color: #000000;
-}
-
-#link4:hover {
-    background-color: rgb(119, 40, 53);
-}
-
-/* IMAGE */
+/* IMAGE & BACKGROUNDS*/
 #imgBack {
-    background-image: url(pictures/mepicture.png);
+    /* background-image: url(pictures/mepicture.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
-    min-height: 900px;
+    min-height: 800px;
+    object-fit: cover; */
+    background-image: url(pictures/monsteras.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    height: 600px;
     object-fit: cover;
 }
 
+#aboutMe {
+    background-image: url(pictures/unsplashbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+/* ------------------------------------------ */
+
 /* rest of page */
-#boxes2 {
+#indexboxes2 {
     /* position:absolute; */
     /* content: ""; */
-    /* display: table; */
-    font-size: 30px;
-    /* clear: both; */
-    width: 100%;
-    text-align: center;
+    color:antiquewhite;
     /* text-anchor: middle; */
+    position:absolute;
+    content: "";
+    display: table;
+    font-size: 30px;
+    clear: both;
+    width: 100%;
+    float: left;
 }
 
 #block1 {
     background-color:rgb(0, 0, 0);
-    height: 60px;
+    height: 50px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+#block3 {
+    background-color: #2a363b;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height:auto;
+    position: relative;
+    font-family: monospace, serif;
+}
+/* inside block 3 */
+#onein3 {
+    width: 55%;
+    float:right;
+    height: 100%;
+    padding-bottom: 100px;
+}
+#qg {
+    text-decoration: #99B898 underline dashed;
+}
+#twoin3 {
+    background-color: #1b2225;
+    width: 45%;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+img {
+    padding-top: 30px;
+    max-width: 100%;
+    height: auto;
 }
 
 #block2  {
-    /* border-width: 2px;
-    border-style: dashed;
-    border-left: #000000;
-    border-color: antiquewhite; */
+    background-color: black;
     float: left;
     height: 50px;
     text-decoration:none;
-    font-size: 30px;
+    font-size: 15px;
     width: 100%;
-    color:antiquewhite;
-    /* padding-top: 10px; */
-    /* background-color: #000000; */
+    color:antiquewhite; 
+    padding-top: 10px;
+    position: fixed;
+    bottom:0;
+    padding-left: 20px;
 }
 
-#contact1 {
+.contact {
     float: left;
     height: 50px;
     border:0;
     text-decoration:none;
-    width: 33%;
+    width: 20%;
     color:antiquewhite;
-    padding-top: 10px;
 }
-#contact2 {
-    float: left;
-    height: 50px;
-    border:0;
-    text-decoration:none;
-    width: 33%;
-    color:antiquewhite;
-    padding-top: 10px;
-}
-#contact3 {
-    float: left;
-    height: 50px;
-    border:0;
-    text-decoration:none;
-    width: 34%;
-    color:antiquewhite;
-    padding-top: 10px;
+
+#changeStyle {
+    height: 25px;
+    width: 150px;
 }
 
 li  {
@@ -205,8 +185,10 @@ li  {
     text-align: left;
 }
 
-p {
-    font-size: 30px;
-    text-align: left;
-    padding-left: 10px;
+a:link, a:visited {
+    color:antiquewhite
+}
+
+a:active {
+    color:cadetblue
 }
