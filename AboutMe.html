@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quinn Gleadell</title>
-    <link rel="stylesheet" href="app.css">
+    <!-- <link rel="stylesheet" href="app.css"> -->
+    <link id="changeStyle" rel="stylesheet" href="app.css">
 </head>
 <body>
     <!-- Image background + header + links -->
@@ -28,7 +29,7 @@
         <main id="indexboxes2">
             <div id="block1"></div>
             <block id="block3">
-                <div id="onein3">
+                <div id="onein3two">
                     <p>
                         Howdy! My name is Quinn Gleadell. I'm a Computing major with a concentration in Cybersecurity studying at Texas A&M University. 
                         My love for computers and programming started in early High School, and from building my own PC from scratch. 
@@ -36,12 +37,24 @@
                     </p>
                     <br>
                     <p>
-                        Entering University, I wished to combine my passion for Art with my passion for Computer Science. 
-                        I looked towards animation, but decided to pursue Cybersecurity and keep art as one of my hobbies.
+                        Entering University, I wished to combine my passion for Art with my passion for Computer Science, but I found and fell in love with Cybersecurity. 
+                        I&#8217m a member of Cybersecurity club and have enjoyed participating in multiple CTFs. 
+                        
+                        Previously, I&#8217ve worked as a Swim Instructor at <a href="https://emlerswimschool.com/location/houston-vintage-park/" target="_blank">Emler Swim School</a> in Vintage Park, Houston for almost two years total. 
+                        I found everyday to be different, exciting, and extremely rewarding to see the impact of my work. It was challenging and I learned a lot. 
+                        A strong team environment is really important to me. I collaborated with a very close team of instructors, that felt like family, to inspire and teach life-saving skills to children and other adults. 
+                        We empowered each-other constantly and provided constructive criticism, and it made the world a difference. I understand the importance of teamwork, 
+                        it&#8217s one of my strengths and I love to contribute my ability to motivate my team members and connect with everyone I communicate with. 
+                        I was able to make a lasting impact on adults and children, and that&#8217s something I&#8217d love to do more of with a career in Cybersecurity.
+                    </p>
+                    <br>
+                    <p>
+                        When I&#8217m not studying or working on artwork, I enjoy being a plant parent to 10 plants, watching Formula One, and listening to music.
+                        A fun fact about me is that I'm a dual citizen. I was born in England, moved to Houston, Texas in 2006, and became an American citizen in 2018. 
                     </p>
                 </div>  
-                <div id="twoin3">
-                    <img src="pictures/mepicture.png" alt="Picture of Me" width="600"> 
+                <div id="twoin3two">
+                    <img src="pictures/mepicture.png" alt="Picture of Me" width="700"> 
                 </div>
             </block>
             <div id="block2">
@@ -49,9 +62,10 @@
                 <div class="contact">(+1) 713-591-6574</div>
                 <div class="contact"><a href="https://www.linkedin.com/in/sophie-gleadell-13990120b/">LinkedIn</a></div>
                 <div class="contact"><a href="https://github.com/qsgleadell">GitHub</a></div>
+                <div class="contact"><button type="button" id="changeStyle" onclick="toggleStyleSheet()">Change Style</button></div>
             </div>
         </main>
-        
     </div>
+    <script src="functions.js"></script>
 </body>
 </html>
