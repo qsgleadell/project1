@@ -132,7 +132,7 @@ a.link:hover, a.link:active {
 #onein3two {
     width: 55%;
     float:right;
-    height: 1100px;
+    height: 1200px;
     padding-bottom: 100px;
 }
 #qg {
@@ -147,11 +147,11 @@ a.link:hover, a.link:active {
 #twoin3two {
     background-color: #1b2225;
     width: 45%;
-    height: 1100px;
+    height: 1200px;
     padding-bottom: 100px;
 }
 
-ul, li, #skillsList {
+#skillsList {
     font-size: 20px;
     text-align: left;
 }
@@ -197,4 +197,45 @@ a:link, a:visited {
 
 a:active {
     color:cadetblue
+}
+
+#projects {
+    background-color: #2a363b;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    font-family: monospace, serif;
+}
+
+#projecttext {
+    color:antiquewhite;
+    width: 55%;
+    float:right;
+    height: 100%;
+    padding-bottom: 100px;
+}
+#projectimgs {
+    position:relative;
+}
+
+#services {
+    color:antiquewhite;
+    background-color: #2a363b;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 1000px;
+    float:center;
+    position: relative;
+    font-family: monospace, serif;
+}
+
+#codingclubbullets {
+    color:antiquewhite;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    float:center;
 }
