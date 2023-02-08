@@ -12,6 +12,7 @@ body, html {
 /* HEADER */
 .header {
     background-color: lightgoldenrodyellow;
+    text-shadow: 2px 2px 5px brown;
     opacity: 60%;
     text-align: center;
     width:100%;
@@ -26,11 +27,9 @@ body, html {
     text-align: center;
     font-weight: 400;
     color:black;
-    letter-spacing: 15px;
-    text-decoration: darkviolet underline dashed;
     font-size: 50px;
     /* font-family: Segoe UI, Futura, Arial, sans-serif; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header a.title:hover {
@@ -152,9 +151,9 @@ a.link:hover, a.link:active {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* inside block 3 */
-#onein3one {
+#landingOne {
     background-color:rgb(201, 235, 109);
-    width: 55%;
+    width: 40%;
     float:right;
     height: 100%;
     padding-bottom: 100px;
@@ -171,12 +170,17 @@ a.resume {
     height: 1200px;
     padding-bottom: 100px;
 }
+#quote {
+    background-color: rgb(253,254,144);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 #qg {
     text-decoration: lightgoldenrodyellow underline dashed;
 }
-#twoin3one {
+#landingTwo {
     background-color: rgb(253,254,144);
-    width: 45%;
+    width: 60%;
     height: 500px;
     padding-top: 20px;
     padding-bottom: 100px;

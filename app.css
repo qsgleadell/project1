@@ -143,7 +143,7 @@ a.link:hover, a.link:active {
     font-family: monospace, serif;
 }
 /* inside block 3 */
-#onein3one {
+#landingOne {
     width: 55%;
     float:right;
     height: 100%;
@@ -164,7 +164,7 @@ a.resume {
 #qg {
     text-decoration: #99B898 underline dashed;
 }
-#twoin3one {
+#landingTwo {
     background-color: #1b2225;
     width: 45%;
     height: 500px;
