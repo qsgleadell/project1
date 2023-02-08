@@ -1,7 +1,7 @@
 body, html {
     padding: 0;
     margin: 0;
-    background: rgb(253,254,144);
+    background: rgb(201, 235, 109);
     /* background-image: url(pictures/brightleaf.jpg);
     background-size: cover;
     background-position: center; */
@@ -50,20 +50,20 @@ p {
     opacity: 60%;
     font-size: 30px;
     clear: both;
-    width: 30%;
+    width: 100%;
     text-align: center;
     text-anchor: middle;
 }
 
 .link {
     float: left;
-    height: 71.7px;
+    height: 30px;
     margin:0;
     border:0;
     text-decoration:none;
-    line-height: 71.7px;
-    font-size: 30px;
-    width: 100%;
+    line-height: 30px;
+    font-size: 20px;
+    width: 49.795%;
     color:black;
     padding-top: 10px;
     background-color: lightgoldenrodyellow;
@@ -76,7 +76,7 @@ p {
 }
 
 a.link:hover, a.link:active {
-    color: rgb(119, 40, 53);
+    background-color: rgb(201, 235, 109);
     font-size: 45;
 }
 
@@ -88,8 +88,9 @@ a.link:hover, a.link:active {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% auto;
-    height: 600px;
-    object-fit: cover;
+    height: 220px;
+    object-fit: cover; 
+    /* background-color: bisque; */
 }
 
 #aboutMe {
@@ -131,7 +132,7 @@ a.link:hover, a.link:active {
 }
 
 #block3 {
-    background-color: rgb(253,254,144);
+    background-color: rgb(201, 235, 109);
     font-size: 20px;
     text-align: center;
     width: 100%;
@@ -142,7 +143,7 @@ a.link:hover, a.link:active {
 }
 
 #skillsBlock {
-    background-color: rgb(253,254,144);
+    background-color: rgb(201, 235, 109);
     font-size: 20px;
     text-align: center;
     padding-bottom: 900px;
@@ -152,7 +153,7 @@ a.link:hover, a.link:active {
 }
 /* inside block 3 */
 #onein3one {
-    background-color:rgb(127, 208, 203);
+    background-color:rgb(201, 235, 109);
     width: 55%;
     float:right;
     height: 100%;
@@ -205,7 +206,7 @@ a.resume {
 }
 
 #block2  {
-    background-color: rgb(213,240,84);
+    background-color: darkslategray;
     border-top: 2px solid black;
     opacity: 85%;
     float: left;
@@ -244,7 +245,7 @@ a:active {
 }
 
 #projects {
-    background-color: rgb(253,254,144);
+    background-color: rgb(201, 235, 109);
     font-size: 30px;
     padding-top: 23px;
     text-align: center;
@@ -271,7 +272,7 @@ a:active {
 
 #services {
     color:black;
-    background-color: rgb(253,254,144);
+    background-color: rgb(201, 235, 109);
     font-size: 20px;
     text-align: center;
     width: 100%;
