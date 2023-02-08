@@ -111,6 +111,15 @@ a.link:hover, a.link:active {
     height: 50px;
     padding-top: 10px;
     width: 100%;
+
+    /* border-top: 20px solid black;
+    font-size: 15px; */
+    color:black;
+    /* background-color: black;
+    opacity:80%;
+    height: 10px;
+    padding-top: 10px;
+    width: 100%; */ 
 }
 
 #block3 {
@@ -145,6 +154,7 @@ a.resume {
     text-align: center;
 }
 
+
 #aboutMeTxt {
     width: 55%;
     float:right;
@@ -157,7 +167,8 @@ a.resume {
 #twoin3one {
     background-color: #1b2225;
     width: 45%;
-    height: 100%;
+    height: 500px;
+    padding-top: 20px;
     padding-bottom: 100px;
 }
 #aboutMePic {
@@ -221,26 +232,28 @@ a:active {
 
 #projects {
     background-color: #2a363b;
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 20px;
     text-align: center;
     width: 100%;
-    height: 1000px;
+    height: 1200px;
     position: relative;
     font-family: monospace, serif;
 }
 
 #projecttext {
     color:antiquewhite;
-    width: 70%;
+    font-size: 15px;
+    width: 50%;
     float:right;
     height: 100%;
     padding-right: 20px;
     padding-bottom: 100px;
 }
 #projectimgs {
-    position:relative;
-    max-width: 800px;
+    float:left;
+    padding-left: 20px;
+    max-width: 400px;
 }
 
 #services {
